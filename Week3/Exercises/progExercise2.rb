@@ -42,8 +42,8 @@ def replacefilecontent(file)
 end
 
 
-unless ARGV[0].empty?
-  replacefilecontent(ARGV[0])
-else
+if ARGV.empty?
   puts "Insert a filename"
+else
+  replacefilecontent(ARGV[0])
 end
