@@ -27,7 +27,7 @@
 #Do not hard-code the file name.
 #
 
-
+=begin
 def replacefilecontent(file)
   newfile = File.new("fileresult.txt", 'w')
   File.open(file, 'r') do |file|
@@ -40,10 +40,24 @@ def replacefilecontent(file)
   end
   newfile.close
 end
+=end
+
+def replacefilecontent(file,newfile)
+  File.open(newfile, 'w') do |file2|
+    File.open(file, 'r') do |file|
+      while line = file.gets
+        if line =~ /word/ then
+          line.gsub!("word", "inserted word")
+        end
+        file2 << line
+      end
+    end
+  end
+end
 
 
-if ARGV.empty?
-  puts "Insert a filename"
+if ARGV.length != 2
+  puts "Insert a filename and a newfilename"
 else
-  replacefilecontent(ARGV[0])
+  replacefilecontent(ARGV[0],ARGV[1])
 end
