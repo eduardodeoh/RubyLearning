@@ -1,0 +1,4 @@
+#
+#http://www.pluitsolutions.com/2006/10/09/comparing-equality-eql-equal-and-case-equality-in-ruby/
+#http://www.skorks.com/2009/09/ruby-equality-and-object-comparison/
+#http://www.skorks.com/2009/08/how-a-ruby-case-statement-works-and-what-you-can-do-with-it/
