@@ -1,0 +1,12 @@
+file-progExercise05-included1.txt
+file-progExercise05-included2.txt
+new-inventory.txt
+old-inventory.txt
+progExercise01-a.rb
+progExercise01.rb
+progExercise02.rb
+progExercise03.rb
+progExercise04.rb
+progExercise05-part1.rb
+text-1.txt
+text-2.txt
