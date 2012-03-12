@@ -1,0 +1,6 @@
+# Logfile created on 2012-03-08 07:39:36 -0300 by logger.rb/31641
+D, [2012-03-08T07:40:27.118266 #6520] DEBUG -- : Numerator: 10, denominator: 2
+D, [2012-03-08T07:40:52.522136 #6539] DEBUG -- : Numerator: 10, denominator: 2
+D, [2012-03-08T07:41:05.876726 #6546] DEBUG -- : Numerator: 10, denominator: 2
+D, [2012-03-08T07:41:05.877146 #6546] DEBUG -- : Numerator: 10, denominator: 0
+E, [2012-03-08T07:41:05.877300 #6546] ERROR -- : Error in division!: divided by 0
