@@ -25,6 +25,7 @@ class Mp3Parser
   def info
     if tagged?
       @data = @file.read
+      @file.close
       @info = { title: @data.byteslice(0,30),
                 artist: @data.byteslice(30,30),
                 album: @data.byteslice(60,30),

@@ -1,0 +1,4 @@
+http://www.skorks.com/2009/09/ruby-exceptions-and-exception-handling/
+http://log4r.rubyforge.org/
+http://guru-sp.github.com/tutorial_ruby/logging-com-ruby.html
+http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_exceptions.html
